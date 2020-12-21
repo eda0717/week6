@@ -1,0 +1,10 @@
+.btn-radius{
+    width: 260px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+
+    @media (min-width:992px){
+        width: 350px;
+    }
+}

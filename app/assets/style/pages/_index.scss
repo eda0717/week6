@@ -1,0 +1,105 @@
+.banner {
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index1.jpg");
+    height: calc(100vh);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h1 {
+        font-weight: $font-weight-bold;
+    }
+}
+
+.productImg {
+    width: 100%;
+    height: 350px;
+    display: block;
+    object-position: center;
+    object-fit: cover;
+
+    @media (min-width: 992px) {
+        height: 555px;
+    }
+}
+
+.productImg-onlinetraining {
+    width: 100%;
+    display: block;
+    object-position: center;
+    object-fit: cover;
+    height: 680px;
+
+    @media (min-width: 992px) {
+        height: 1040px;
+    }
+}
+
+.recyclingImg {
+    display: block;
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 520px;
+}
+
+.productLink {
+    display: block;
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+    @media (min-width: 992px) {
+        height: 540px;
+    }
+}
+
+.productInfo {
+    width: 66.66%;
+}
+
+.text-line-through {
+    text-decoration: line-through;
+}
+
+li {
+    list-style: none;
+}
+
+.subscript {
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index10.jpg");
+    min-height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 112px;
+}
+
+.productRecommend {
+    li:hover {
+        box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.enlargeImg {
+    position: relative;
+    overflow: hidden;
+    img {
+        cursor: pointer;
+        transition: all 0.6s;
+    }
+    img:hover {
+        transform: scale(1.2);
+    }
+}
+
+.soldout {
+    filter: brightness(0.5);
+}
+
+.position-absolute{
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+}
